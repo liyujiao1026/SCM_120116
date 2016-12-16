@@ -20,6 +20,12 @@ settings$timeLength <- settings$invTime + settings$post_Inv_Length
 #write.csv(settings, file = "./setting_matrix.csv", row.names = F)
 
 #=====================================================================#
+install.packages("shiny")
+install.packages("shinydashboard")
+install.packages("tidyr")
+install.packages("Synth")
+install.packages("compiler")
+
 
 
 # 2. start simulation
