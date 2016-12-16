@@ -1,6 +1,8 @@
 #ui.R
 
 source('./global_update.R', echo = F)
+library(shiny)
+library(shinydashboard)
 
 ## 1. header --------------------------------------------------------------------------##
 header <- dashboardHeader(title = "Power of Synthetic Control Method ", titleWidth = 300)
